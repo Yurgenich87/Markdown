@@ -28,3 +28,7 @@ int main(void) {
 ```python
 print("Hello world")
 ```
+
+## Картинка
+Это яблоко
+![Яблоко](apple.jpeg)
