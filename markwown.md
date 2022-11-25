@@ -15,3 +15,10 @@
 2. Лист 2
 3. Лист 3
 
+
+## Code folding
+```C
+int main(void) {
+	printf("Hello world");
+}
+```
