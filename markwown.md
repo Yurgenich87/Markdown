@@ -33,14 +33,5 @@ print("Hello world")
 
 
 
-
-
-
-
-
-
-
 Это собака:
 ![Собака](dog.jpeg), ![Dog](dog%202.jpeg)
-
-some text
