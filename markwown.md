@@ -34,13 +34,15 @@ print("Hello world")
 
 ![[Кошка](cat.jpeg), ![Cat](cat2.jpeg)
 
+<<<<<<< HEAD
 Это собака:
 ![Собака](dog.jpeg)
 
 
 Это корова:
-![Корова](cow.jpeg)
+![Корова](cow.jpeg), ![Cow](cow2.jpeg)
 
 
 some text
+
 
