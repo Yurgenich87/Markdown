@@ -37,4 +37,7 @@ print("Hello world")
 Это апельсин
 ![Апельсин](orange.webp)
 
+Это кошка
+![Кошка](cat.jpeg)
+
 some text
