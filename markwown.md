@@ -29,3 +29,9 @@ int main(void) {
 print("Hello world")
 ```
 
+
+## Картинка
+Это яблоко
+![Яблоко](apple.jpeg)
+
+some text
