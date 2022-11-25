@@ -37,14 +37,5 @@ print("Hello world")
 
 
 
-
-
-
-
-
-
-
 Это корова:
 ![Корова](cow.jpeg), ![Cow](cow2.jpeg)
-
-some text
