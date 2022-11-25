@@ -29,9 +29,12 @@ int main(void) {
 print("Hello world")
 ```
 
-
 ## Картинка
 Это яблоко
 ![Яблоко](apple.jpeg)
+
+## Изображение
+Это апельсин
+![Апельсин](orange.webp)
 
 some text
