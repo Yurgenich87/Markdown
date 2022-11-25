@@ -29,10 +29,16 @@ int main(void) {
 print("Hello world")
 ```
 
+
 Это кошка
 ![Кошка](cat.jpeg)
 
 Это собака:
 ![Собака](dog.jpeg)
+
+
+Это корова:
+![Корова](cow.jpeg)
+
 
 some text
