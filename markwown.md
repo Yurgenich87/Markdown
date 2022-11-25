@@ -41,6 +41,6 @@ print("Hello world")
 
 
 Это кошка
-![Кошка](cat.jpeg)
+![Кошка](cat.jpeg), ![Cat](cat2.jpeg)
 
 some text
