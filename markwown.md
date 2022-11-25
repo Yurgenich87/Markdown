@@ -18,12 +18,13 @@
 
 
 ## Обрамление кода
+Пример на С
 ```C
 int main(void) {
 	printf("Hello world");
 }
 ```
-
+Пример на Python
 ```python
 print("Hello world")
 ```
