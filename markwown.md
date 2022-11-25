@@ -15,7 +15,16 @@
 2. Лист 2 / List 2
 3. Лист 3 / List 3
 
+
+
 ## Обрамление кода
+Пример на С
+```C
+int main(void) {
+	printf("Hello world");
+}
+```
+Пример на Python
 ```python
 print("Hello world")
 ```
