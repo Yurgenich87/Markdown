@@ -1,99 +1,97 @@
-Instructions for the Markdown Language
-Introduction
-Markdown is a lightweight markup language that is used to format text documents. It is a simple and intuitive language that can be used to create headings, lists, emphasis, links, images, tables, blockquotes, and other types of formatting.
+# Инструкции для языка Markdown
+Введение
+Markdown - это легкий язык разметки, который используется для форматирования текстовых документов. Это простой и интуитивно понятный язык, который можно использовать для создания заголовков, списков, подчеркивания, ссылок, изображений, таблиц, блочных цитат и других типов форматирования.
 
-Basic Syntax
-Headings
-To create a heading, use one to six hash symbols (#) at the beginning of a line, followed by a space and the heading text.
+# Основной синтаксис
+## Заголовки
+Чтобы создать заголовок, используйте от одного до шести символов хэша (#) в начале строки, затем пробел и текст заголовка.
 
-Example:
+### Пример:
 
-shell
-Copy code
-# Heading 1
-## Heading 2
-### Heading 3
-Emphasis
-To add emphasis to text, you can use asterisks (*) or underscores (_). Single asterisks or underscores will italicize the text, while double asterisks or underscores will bold the text.
+````
+# Заголовок 1
+## Заголовок 2
+### Заголовок 3
+````
+Подчеркивание
+Чтобы подчеркнуть текст, вы можете использовать звездочки (*) или знаки подчеркивания (_). Одиночные звездочки или знаки подчеркивания выделяют текст курсивом, а двойные звездочки или знаки подчеркивания - жирным шрифтом.
 
-Example:
+### Пример:
 
-markdown
-Copy code
+
+````
 *italic*
 _italic_
-**bold**
-__bold__
-Lists
-To create an unordered list, use asterisks (*), plus signs (+), or hyphens (-) at the beginning of a line, followed by a space and the list item.
+**жирный**
+__жирный__
+````
+## Списки
+Чтобы создать неупорядоченный список, используйте звездочки (*), знаки плюс (+) или дефис (-) в начале строки, затем пробел и элемент списка.
 
-Example:
+### Пример:
 
-markdown
-Copy code
-* Item 1
-* Item 2
-* Item 3
-To create an ordered list, use numbers followed by a period (.) at the beginning of a line, followed by a space and the list item.
+````
+* Пункт 1
+* Пункт 2
+* Пункт 3
+````
+Чтобы создать упорядоченный список, используйте числа, за которыми в начале строки следует точка (.), затем пробел и элемент списка.
 
-Example:
+### Пример:
 
-markdown
-Copy code
-1. Item 1
-2. Item 2
-3. Item 3
-Links
-To create a link, use square brackets ([]) to enclose the link text, followed by parentheses (()) to enclose the link URL.
+````
+1. Пункт 1
+2. Пункт 2
+3. Пункт 3
+````
+## Ссылки
+Чтобы создать ссылку, используйте квадратные скобки ([]), чтобы заключить текст ссылки, а затем круглые скобки (()), чтобы заключить URL ссылки.
 
-Example:
-
-less
-Copy code
+### Пример:
+````
 [Google](https://www.google.com)
-Images
-To insert an image, use an exclamation mark (!), followed by square brackets ([]) to enclose the alt text, followed by parentheses (()) to enclose the image URL.
+````
+## Изображения
+Чтобы вставить изображение, используйте восклицательный знак (!), затем квадратные скобки ([]), чтобы заключить текст alt, затем круглые скобки (()), чтобы заключить URL изображения.
 
-Example:
+### Пример:
 
-scss
-Copy code
+````
 ![alt text](image.jpg)
-Code
-To format code, use backticks (`) to enclose the code.
+````
+## Код
+Для форматирования кода используйте обратные знаки (`), чтобы заключить код в рамку.
 
-Example:
+### Пример:
 
-python
-Copy code
-`print("Hello, world!")`
-Advanced Syntax
-Tables
-To create a table, use pipes (|) to separate columns, and hyphens (-) to separate the header row from the content rows.
+````
+`print("Hello, world!")`.
+Расширенный синтаксис
+````
+## Таблицы
+Чтобы создать таблицу, используйте трубы (|) для разделения столбцов и дефисы (-) для отделения строки заголовка от строк содержимого.
 
-Example:
-
-sql
-Copy code
-| Column 1 | Column 2 |
+### Пример:
+````
+| Колонка 1 | Колонка 2 |
 |----------|----------|
-| Row 1, Column 1 | Row 1, Column 2 |
-| Row 2, Column 1 | Row 2, Column 2 |
-Blockquotes
-To create a blockquote, use the greater than symbol (>) at the beginning of a line.
+| Строка 1, столбец 1 | Строка 1, столбец 2 | |
+| Строка 2, столбец 1 | Строка 2, столбец 2 |
+````
+## Блок-цитаты
+Чтобы создать блок-цитату, используйте символ "больше чем" (>) в начале строки.
 
-Example:
+### Пример:
+````
+> Это блочная цитата.
+````
+## Горизонтальное правило
+Чтобы создать горизонтальное правило, используйте три или более дефисов (-), звездочек (*) или знаков подчеркивания (_).
 
-css
-Copy code
-> This is a blockquote.
-Horizontal Rule
-To create a horizontal rule, use three or more hyphens (-), asterisks (*), or underscores (_).
-
-Example:
-
-yaml
-Copy code
+### Пример:
+````
 ---
-Conclusion
-Markdown is a powerful and versatile language that can be used to format text documents quickly and easily. By using the basic and advanced syntaxes of Markdown, you can create a wide variety of formatted documents that are easy to read and understand.
+````
+# Заключение
+Markdown - это мощный и универсальный язык, который можно использовать для быстрого и простого форматирования текстовых документов. Используя базовый и расширенный синтаксис Markdown, вы можете создавать самые разные форматированные документы, которые легко читать и понимать.
+
